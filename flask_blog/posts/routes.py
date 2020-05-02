@@ -5,9 +5,7 @@ from flask_blog import db
 from flask_blog.models import Post
 from flask_blog.posts.forms import PostForm
 
-
 posts = Blueprint('posts', __name__)
-
 
 @posts.route("/post/new", methods=['GET', 'POST'])
 @login_required
