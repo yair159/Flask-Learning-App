@@ -1,3 +1,5 @@
 venv
 flask_blog/__pycache__
 flask_blog/config.py
+.idea
+.vscode
